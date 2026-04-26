@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="バンクシーの代表作を、年代・場所・テーマでたどる作品一覧LP。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Banksy Works Index">
+  <meta property="og:description" content="バンクシーの代表作を、年代・場所・テーマでたどる作品一覧LP。">
+  <meta property="og:image" content="./assets/stencil-hero.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Banksy Works Index">
+  <meta name="twitter:description" content="バンクシーの代表作を、年代・場所・テーマでたどる作品一覧LP。">
+  <meta name="twitter:image" content="./assets/stencil-hero.svg">
+  <title>Banksy Works Index</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Outfit:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Banksy Works Index">
+      <span class="brand-mark">B</span>
+      <span class="brand-name">Banksy Works Index</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="ページ内ナビゲーション">
+      <a href="#works">作品一覧</a>
+      <a href="#timeline">年表</a>
+      <a href="#themes">テーマ</a>
+      <a href="#sources">出典</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">STREET ART CATALOG</p>
+        <h1>バンクシーの代表作を、街・市場・時代から読み解く。</h1>
+        <p class="hero-lead">壁画、オークションでの介入、社会批評、近年のロンドン動物シリーズまで。作品そのものの画像ではなく、公開情報に基づくタイトル・年・場所・文脈で整理した作品一覧です。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#works">作品一覧を見る</a>
+          <a class="button secondary" href="#sources">出典を確認</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>24</strong><span>掲載作品・シリーズ</span></div>
+          <div><strong>1999</strong><span>初期代表作から</span></div>
+          <div><strong>2024</strong><span>近年シリーズまで</span></div>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <img src="./assets/stencil-hero.svg" alt="ステンシル風の都市壁面グラフィック">
+      </figure>
+    </section>
+
+    <section class="intro-band" aria-label="このLPについて">
+      <p>注: 実作品画像は掲載していません。権利に配慮し、独自制作の抽象ビジュアルとテキスト解説で構成しています。</p>
+    </section>
+
+    <section id="works" class="section works-section">
+      <div class="section-head">
+        <p class="eyebrow">WORKS</p>
+        <h2>代表作一覧</h2>
+        <p>年代順、ジャンル別に切り替えて閲覧できます。</p>
+      </div>
+      <div class="toolbar" aria-label="作品フィルター">
+        <button class="filter-button is-active" type="button" data-filter="all">すべて</button>
+        <button class="filter-button" type="button" data-filter="street">壁画</button>
+        <button class="filter-button" type="button" data-filter="market">市場・オークション</button>
+        <button class="filter-button" type="button" data-filter="exhibition">展示/プロジェクト</button>
+        <button class="filter-button" type="button" data-filter="recent">近年作</button>
+      </div>
+      <div class="works-grid" id="works-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="timeline" class="section timeline-section">
+      <div class="section-head">
+        <p class="eyebrow">TIMELINE</p>
+        <h2>転換点で見るバンクシー</h2>
+      </div>
+      <ol class="timeline">
+        <li><span>1999-2004</span><strong>ブリストル/ロンドンの壁画で象徴的イメージが広がる</strong></li>
+        <li><span>2005-2009</span><strong>美術館、政治、監視社会への批評性が強まる</strong></li>
+        <li><span>2015-2021</span><strong>大型プロジェクトと市場介入が作品の文脈を拡張</strong></li>
+        <li><span>2022-2024</span><strong>戦争、公共空間、都市の日常に応答する近年作</strong></li>
+      </ol>
+    </section>
+
+    <section id="themes" class="section themes-section">
+      <figure class="section-art">
+        <img src="./assets/wall-texture.svg" alt="コラージュされた都市壁面の抽象グラフィック">
+      </figure>
+      <div class="theme-copy">
+        <p class="eyebrow">THEMES</p>
+        <h2>作品を貫く主なテーマ</h2>
+        <div class="theme-list">
+          <article><h3>反権力</h3><p>警察、軍事、監視、制度への違和感を、短い視覚言語で提示します。</p></article>
+          <article><h3>市場批評</h3><p>作品が高値で取引される状況そのものを、作品の一部として扱います。</p></article>
+          <article><h3>公共空間</h3><p>街角、壁、シャッター、仮設物が展示空間になり、鑑賞者も偶然巻き込まれます。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sources" class="section sources-section">
+      <div class="section-head">
+        <p class="eyebrow">SOURCES</p>
+        <h2>参照元</h2>
+        <p>作品名・年・近年作の確認に使った公開情報です。最新性が必要な場合は、Banksy本人の公式InstagramやPest Controlの認証情報も確認してください。</p>
+      </div>
+      <ul class="source-list">
+        <li><a href="https://www.sothebys.com/en/articles/latest-banksy-artwork-love-is-in-the-bin-created-live-at-auction">Sotheby's: Love is in the Bin created live at auction</a></li>
+        <li><a href="https://www.londonzoo.org/zoo-stories/news/banksy-london-zoo">London Zoo: Banksy at London Zoo, ninth animal mural</a></li>
+        <li><a href="https://feeds.bbci.co.uk/news/articles/c623qjpgew4o">BBC News: final work in London animal series</a></li>
+        <li><a href="https://www.theguardian.com/artanddesign/article/2024/aug/11/banksy-confirms-piranhas-seventh-animal-artwork-in-london">The Guardian: piranhas artwork in 2024 series</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Banksy Works Index</span>
+    <small>Unofficial educational catalog. No affiliation with Banksy or Pest Control.</small>
+  </footer>
+
+  <script src="./site.config.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
+
