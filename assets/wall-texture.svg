@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Abstract urban wall collage">
+  <rect width="1200" height="900" fill="#f4f0e8"/>
+  <path d="M0 250h1200M0 520h1200M260 0v900M620 0v900M930 0v900" stroke="#111" stroke-width="10" opacity=".32"/>
+  <rect x="96" y="90" width="450" height="230" fill="#111"/>
+  <rect x="130" y="126" width="382" height="36" fill="#f4f0e8"/>
+  <rect x="130" y="188" width="250" height="36" fill="#f4f0e8"/>
+  <rect x="130" y="250" width="330" height="36" fill="#d92323"/>
+  <circle cx="820" cy="260" r="112" fill="#111"/>
+  <path d="M772 258c54 36 108 36 160 0" fill="none" stroke="#f4f0e8" stroke-width="22" stroke-linecap="round"/>
+  <path d="M760 582c84-80 160-118 278-118" fill="none" stroke="#d92323" stroke-width="34" stroke-linecap="round"/>
+  <path d="M215 690h760" stroke="#111" stroke-width="24"/>
+  <path d="M268 750h520" stroke="#111" stroke-width="24"/>
+  <path d="M880 700l100 84 96-140" fill="none" stroke="#111" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
