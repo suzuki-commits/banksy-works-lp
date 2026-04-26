@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Abstract stencil style city wall">
+  <rect width="1600" height="900" fill="#e8dfd0"/>
+  <g opacity=".16" stroke="#111" stroke-width="2">
+    <path d="M0 110h1600M0 220h1600M0 330h1600M0 440h1600M0 550h1600M0 660h1600M0 770h1600"/>
+    <path d="M120 0v900M270 0v900M420 0v900M570 0v900M720 0v900M870 0v900M1020 0v900M1170 0v900M1320 0v900M1470 0v900"/>
+  </g>
+  <rect x="108" y="100" width="1384" height="704" fill="none" stroke="#111" stroke-width="18"/>
+  <path d="M244 658c188-116 290-178 516-178 244 0 382 60 602 188" fill="none" stroke="#111" stroke-width="32" stroke-linecap="round"/>
+  <circle cx="520" cy="344" r="88" fill="#111"/>
+  <path d="M520 438c-88 0-154 60-170 154h340c-16-94-82-154-170-154z" fill="#111"/>
+  <path d="M1040 290h120v300h-120zM1186 364h108v226h-108zM904 410h108v180H904z" fill="#111"/>
+  <path d="M1006 244l180 40 168-58" fill="none" stroke="#d92323" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="1212" cy="282" r="22" fill="#d92323"/>
+  <g fill="#111">
+    <rect x="210" y="724" width="1180" height="20"/>
+    <rect x="250" y="760" width="380" height="20"/>
+    <rect x="710" y="760" width="640" height="20"/>
+  </g>
+  <text x="130" y="194" fill="#111" font-family="Arial Black, Arial, sans-serif" font-size="72" letter-spacing="4">WORKS INDEX</text>
+  <text x="130" y="254" fill="#d92323" font-family="Arial Black, Arial, sans-serif" font-size="34" letter-spacing="2">UNOFFICIAL CATALOG</text>
+</svg>
+
